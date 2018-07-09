@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  background('green');
+  background(0,0,128);
 
   fill("orange");
   noStroke();
@@ -11,7 +11,7 @@ function draw() {
 
   fill("yellow");
   ellipse(mouseX,mouseY,80,80);
-  fill("green");
+  fill(0,0,128);
   ellipse(mouseX,mouseY,30,30);
 
   noFill();
@@ -21,5 +21,5 @@ function draw() {
   fill("yellow");
   noStroke();
   textSize(35);
-  text("input!",100,200);
+  text("play!",100,200);
 }
