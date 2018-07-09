@@ -13,12 +13,13 @@ function draw() {
   ellipse(mouseX,mouseY,80,80);
   fill("green");
   ellipse(mouseX,mouseY,30,30);
-  
+
   noFill();
   stroke("orange");
   rect(250,100,210,150);
 
   fill("yellow");
+  noStroke();
   textSize(35);
   text("input!",100,200);
 }
