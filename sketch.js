@@ -15,10 +15,10 @@ function draw() {
 
   fill("yellow");
   ellipse(mouseX,mouseY,80,80);
-  fill("black");
-  ellipse(mouseX,mouseY,20,20);
+  noFill();
+  ellipse(mouseX,mouseY,30,30);
 
   fill("yellow");
   textSize(35);
-  text("input!",50,200);
+  text("input!",100,200);
 }
