@@ -15,7 +15,7 @@ function draw() {
 
   fill("yellow");
   ellipse(mouseX,mouseY,80,80);
-  fill("white");
+  fill("black");
   ellipse(mouseX,mouseY,20,20);
 
   fill("yellow");
